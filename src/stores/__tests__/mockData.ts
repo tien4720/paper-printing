@@ -1,0 +1,76 @@
+import type { PaperPrice } from '@/services/types'
+export const mockData: PaperPrice = {
+    paper_size: 'a4',
+    prices: [
+        [
+            { business_day: 1, price: 1568, quantity: 10 },
+            { business_day: 2, price: 1578, quantity: 10 },
+            { business_day: 3, price: 1588, quantity: 10 },
+            { business_day: 4, price: 1598, quantity: 10 },
+            { business_day: 5, price: 1608, quantity: 10 },
+        ],
+        [
+            { business_day: 1, price: 1640, quantity: 100 },
+            { business_day: 2, price: 1650, quantity: 100 },
+            { business_day: 3, price: 1660, quantity: 100 },
+            { business_day: 4, price: 1670, quantity: 100 },
+            { business_day: 5, price: 1680, quantity: 100 },
+        ],
+        [
+            { business_day: 1, price: 1720, quantity: 200 },
+            { business_day: 2, price: 1730, quantity: 200 },
+            { business_day: 3, price: 1740, quantity: 200 },
+            { business_day: 4, price: 1750, quantity: 200 },
+            { business_day: 5, price: 1760, quantity: 200 },
+        ],
+        [
+            { business_day: 1, price: 1800, quantity: 300 },
+            { business_day: 2, price: 1810, quantity: 300 },
+            { business_day: 3, price: 1820, quantity: 300 },
+            { business_day: 4, price: 1830, quantity: 300 },
+            { business_day: 5, price: 1840, quantity: 300 },
+        ],
+        [
+            { business_day: 1, price: 1880, quantity: 400 },
+            { business_day: 2, price: 1890, quantity: 400 },
+            { business_day: 3, price: 1900, quantity: 400 },
+            { business_day: 4, price: 1910, quantity: 400 },
+            { business_day: 5, price: 1920, quantity: 400 },
+        ],
+        [
+            { business_day: 1, price: 1960, quantity: 500 },
+            { business_day: 2, price: 1970, quantity: 500 },
+            { business_day: 3, price: 1980, quantity: 500 },
+            { business_day: 4, price: 1990, quantity: 500 },
+            { business_day: 5, price: 2000, quantity: 500 },
+        ],
+        [
+            { business_day: 1, price: 2040, quantity: 600 },
+            { business_day: 2, price: 2050, quantity: 600 },
+            { business_day: 3, price: 2060, quantity: 600 },
+            { business_day: 4, price: 2070, quantity: 600 },
+            { business_day: 5, price: 2080, quantity: 600 },
+        ],
+        [
+            { business_day: 1, price: 2120, quantity: 700 },
+            { business_day: 2, price: 2130, quantity: 700 },
+            { business_day: 3, price: 2140, quantity: 700 },
+            { business_day: 4, price: 2150, quantity: 700 },
+            { business_day: 5, price: 2160, quantity: 700 },
+        ],
+        [
+            { business_day: 1, price: 2200, quantity: 800 },
+            { business_day: 2, price: 2210, quantity: 800 },
+            { business_day: 3, price: 2220, quantity: 800 },
+            { business_day: 4, price: 2230, quantity: 800 },
+            { business_day: 5, price: 2240, quantity: 800 },
+        ],
+        [
+            { business_day: 1, price: 2280, quantity: 900 },
+            { business_day: 2, price: 2290, quantity: 900 },
+            { business_day: 3, price: 2300, quantity: 900 },
+            { business_day: 4, price: 2310, quantity: 900 },
+            { business_day: 5, price: 2320, quantity: 900 },
+        ],
+    ],
+}
